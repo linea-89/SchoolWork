@@ -3,7 +3,7 @@
 This project contains a portfolio assignemts from the course "Software technology in cyber physical systems".
 
 
-The assignemt describtions are somewhat extensive - too extensive to write in the code, and they are therefore put in a README file under each seperate task. 
+The assignment describtions are somewhat extensive - too extensive to write in the code, and they are therefore put in a README file under each seperate task. 
 
 
 ## Resources
