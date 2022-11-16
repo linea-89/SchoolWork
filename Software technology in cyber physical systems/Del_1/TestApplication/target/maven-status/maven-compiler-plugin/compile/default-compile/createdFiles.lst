@@ -1,0 +1,7 @@
+dk\sdu\mmmi\testapplication\Sensor\Adapter_TemperatureSensor.class
+dk\sdu\mmmi\testapplication\Test.class
+dk\sdu\mmmi\testapplication\Sensor\ISensor.class
+dk\sdu\mmmi\testapplication\Sensor\Adapter_CO2Sensor.class
+dk\sdu\mmmi\testapplication\Domain\Domain_TemperatureSensor.class
+dk\sdu\mmmi\testapplication\Presentation\User_Interface.class
+dk\sdu\mmmi\testapplication\Domain\Domain_CO2Sensor.class

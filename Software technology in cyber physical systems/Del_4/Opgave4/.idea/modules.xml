@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CO2Sensor/CO2Sensor.iml" filepath="$PROJECT_DIR$/CO2Sensor/CO2Sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemperatureSensor/TemperatureSensor.iml" filepath="$PROJECT_DIR$/TemperatureSensor/TemperatureSensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st4-scfs-ref.iml" filepath="$PROJECT_DIR$/st4-scfs-ref.iml" />
+    </modules>
+  </component>
+</project>
