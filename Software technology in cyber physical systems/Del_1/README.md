@@ -2,7 +2,6 @@
 
 ## Opgavebeskrivelse
 
-
 I har givet et library (i form af en jar) med følgende klasser:
 
 * CO2Sensor – En objekt-orienteret repræsentation af en CO2 sensor.
