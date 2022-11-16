@@ -12,7 +12,7 @@ Herefter skal I skal anvende client/server distributions mønsteret og distribue
 
 I skal lave to typer af komponenter. Det ene type af komponent,”Application”-komponent, indeholder de logiske lag ”presentation” og ”domain”. Det andet type af komponent, ”Sensor”-komponent, indeholder det logiske lag ”sensor”, men da vi har to sensorer bør i brække disse to ud i separate instanser af komponenten. Det vil sige, i skal ende op med i alt 3 komponenter. Det er forsøgt afbilledet i Figure 2. Bemærk: Der vil blive introduceret en ny form for klasser i jeres komponenter. De har ansvaret for kommunikation, og de bør naturligvis placeres hensigtsmæssigt i jeres softwarearkitektur for de enkelte komponenter. Hvad ”hensigtsmæssigt” vil sige er op til jer at afgøre.
 
-BILLEDE
+![Komponentdiagram_Sensors](https://user-images.githubusercontent.com/71763923/202206066-420dd771-1bf5-49cf-96ab-b8af78421c7e.PNG)
 
 I skal sørge for, at jeres system stadig er fungerende. Det vil sige, at I skal implementere en form for netværkskommunikation mellem jeres Sensor-komponenter og jeres Application-komponent.
 Der findes flere muligheder for at implementere netværkskommunikationen i ovenstående. Herunder er forslag til metoder og introduktion til disse metoder. Det er op til jer selv, hvilken metode i vælger, men I skal – naturligvis – dokumentere jeres valg (blot hvilken tilgang i valgte – i behøver ikke begrunde yderligere). Eneste krav er, at I skal anvende ”request/reply” pattern i jeres protokol.
@@ -23,5 +23,4 @@ Der findes flere muligheder for at implementere netværkskommunikationen i ovens
 
 I figuren herunder vises systemet i et deployment diagram hvor netværkskommunikationen mellem Application og Sensor komponenterne er illustreret. Hver sensor komponent skal kunne forespørges de særskilte værdier for hhv. sensornavn og sensorværdi. Desuden er det et krav, at hver sensor implementeres som selvstændige serverprogrammer. Client og hver sensor skal udarbejdes i selvstændige projekter dvs. i alt tre projekter.
 
-BILLEDE DEPLOYMENT
-
+![Deploymentdiagram_Sockets](https://user-images.githubusercontent.com/71763923/202206137-3b4ccd2d-93bc-4137-af94-d2901beec9fd.PNG)
