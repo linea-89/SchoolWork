@@ -22,7 +22,7 @@ Jeres program skal opfylde følgende:
 1. I skal udvikle et Command-Line Interface hvor der kan vælges hvilken sensor man ønsker at have den seneste værdi udskrevet fra.
 2. I skal følge det lagdelte pattern,således at sensor-lag, domænelag og user interface lag er adskilt. Se nedenstående figur.
 
-<img src="../Users/Pc/Documents/4_semester_tek/SoftwareiCyberFysiskeSystemer/pakkediagramOpgave1.PNG" alt="Lagdeling" style="height: 100px; width:100px;"/>
+<img src="./Users/Pc/Documents/4_semester_tek/SoftwareiCyberFysiskeSystemer/pakkediagramOpgave1.PNG" alt="Lagdeling" style="height: 100px; width:100px;"/>
 
 3. I skal implementere 2 Adapter-klasser som implementerer ISensor-interfacet og eksponerer værdierne fra hhv. CO2Sensor og TemperatureSensor. Det skal i gøre, uden at ændre i implementeringen af klasserne CO2Sensor og TemperatureSensor. Dette simulerer situationen, hvor i er afhængig af en implementering, nogle andre har lavet. Jeres Adapter-klasser skal i placere i Sensor-laget. Det betyder også at i gerne må (og bør) ændre pakken på ISensor-interfacet. I kan finde hjælp til anvendelsen af sensorerne i Test klassen.
 4. Domain-laget skal indeholde klasse(r) der kan håndtere kald fra bruger-interfacet, kalder metoder på instanser af jeres Adapter-klasser for at returnere den nuværende værdi for sensorerne, når der bliver bedt om det fra brugerinterfacet.
