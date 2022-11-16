@@ -1,5 +1,5 @@
 # How to run application
-order for the system to function, the *docker-compose.yml* fine needs to be loaded before starting the other components / applications. It is also recommended to run the maven 
+In order for the system to function, the *docker-compose.yml* fine needs to be loaded before starting the other components / applications. It is also recommended to run the maven 
 
 As a follow-up, it's advised to start each component in a specific order, due to some minor ~~bugs~~ features, that might stop the application to function as intended. The order is as follows:
 
