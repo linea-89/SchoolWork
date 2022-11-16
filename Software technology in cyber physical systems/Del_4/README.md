@@ -10,4 +10,4 @@ https://hazelcast.org/imdg/?samplelang=Java+Client&sampleindex=7
 
 I skal udvikle tre adskilte Java applikationer - en Client applikation, en Temperatur Sensor applikation og en CO2 Sensor applikation. Hver af disse skal fungere som Event Processors der anvender Hazelcast som event broker: Client applikation skal abonnere (addMessageListener(Topic)) på det Topic, som bliver publiceret (publish(…)) af Temperature Sensor- og CO2 Sensor applikationerne. Det vil altså sige, at Temperature Sensor- og CO2 Sensor applikationerne er ansvarlig for at publicere sensorværdier på dette topic. Det er op til jer at afgøre hvilket interval det skal ske med. Det er et krav, at Client applikationen fortsat gør brug af ISensor-interfacet.
 
-![Uploading Deploymentdiagram_EvendrivenArchitecture.PNG…]()
+![Deploymentdiagram_EvendrivenArchitecture](https://user-images.githubusercontent.com/71763923/202209336-191ab623-b40f-4990-bcc7-657bbde7a782.PNG)
